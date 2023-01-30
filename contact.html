@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta
+      name="description"
+      content="Page de contact de L'agence de web design La Panthère."
+    />
+    <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
@@ -74,10 +78,13 @@
         <div class="container bloc-lg">
           <div class="row">
             <div class="col-sm-12">
-              <h1 class="text-center hero-bloc-text tc-white">
+              <h1 class="text-center hero-bloc-text tc-white" id="tc-black">
                 Parlons web design !
               </h1>
-              <p class="text-center mg-lg tc-white tight-width-whitespace">
+              <p
+                class="text-center mg-lg tc-white tight-width-whitespace"
+                id="tc-black"
+              >
                 Nous sommes ravis que vous souhaitiez collaborer avec notre
                 agence.<br />
                 Parlez-nous de votre projet en complétant le formulaire
@@ -94,18 +101,13 @@
         <div class="container bloc-lg">
           <div class="row">
             <div class="col-sm-6">
-              <form
-                id="form_1"
-                novalidate
-                success-msg="Votre message a été envoyé."
-                fail-msg="Désolé nos serveurs mail semblent ne pas répondre, Désolé pour l'inconvenience!"
-              >
+              <form id="form_1" novalidate>
                 <div class="form-group">
-                  <label> Nom </label>
+                  <label for="name"> Nom </label>
                   <input id="name" class="form-control" required />
                 </div>
                 <div class="form-group">
-                  <label> Adresse email </label>
+                  <label for="email"> Adresse email </label>
                   <input
                     id="email"
                     class="form-control"
@@ -114,7 +116,9 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label> Comment nous avez-vous connu ? </label>
+                  <label for="input_504">
+                    Comment nous avez-vous connu ?
+                  </label>
                   <input
                     class="form-control"
                     type="email"
@@ -123,7 +127,7 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label>
+                  <label for="message">
                     Brief de votre projet (Ajoutez autant de détails que
                     nécessaire)<br /> </label
                   ><textarea
@@ -136,6 +140,7 @@
                 </div>
                 <button
                   class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
+                  id="tc-black"
                   type="submit"
                 >
                   Envoyer
@@ -169,7 +174,7 @@
         <div class="container bloc-sm">
           <div class="row">
             <div class="col-sm-12">
-              <p class="text-center white">
+              <p class="text-center white" id="tc-black">
                 Agence La Panthère - Agence web basée à Lyon.<br />
               </p>
               <div class="row row-no-gutters social">
@@ -179,7 +184,7 @@
                       aria-label="Twitter"
                       class="social"
                       href="https://twitter.com/?lang=fr"
-                      ><span class="fa fa-twitter icon-md"></span
+                      ><span class="fa fa-twitter icon-md" id="tc-black"></span
                     ></a>
                   </div>
                 </div>
@@ -189,7 +194,7 @@
                       aria-label="Facebook"
                       class="social"
                       href="https://fr-fr.facebook.com/"
-                      ><span class="fa fa-facebook icon-md"></span
+                      ><span class="fa fa-facebook icon-md" id="tc-black"></span
                     ></a>
                   </div>
                 </div>
@@ -199,7 +204,7 @@
                       aria-label="Dribble"
                       class="social"
                       href="https://dribbble.com/"
-                      ><span class="fa fa-dribbble icon-md"></span
+                      ><span class="fa fa-dribbble icon-md" id="tc-black"></span
                     ></a>
                   </div>
                 </div>
@@ -209,7 +214,10 @@
                       aria-label="Instagram"
                       class="social"
                       href="https://www.instagram.com/?hl=fr"
-                      ><span class="fa fa-instagram icon-md"></span
+                      ><span
+                        class="fa fa-instagram icon-md"
+                        id="tc-black"
+                      ></span
                     ></a>
                   </div>
                 </div>
